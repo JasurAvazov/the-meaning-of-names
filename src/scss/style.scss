@@ -1,0 +1,36 @@
+// Главный Sass файл
+@import 
+    '../../node_modules/swiper/swiper.scss';
+
+// Шрифты
+@import "fonts";
+
+// abstracts
+@import 
+    'abstracts/variables',
+    'abstracts/functions',
+    'abstracts/mixins',
+    'abstracts/placeholders';
+
+
+// base
+@import 
+    'base/reset',
+    'base/typography';
+
+// components
+@import 
+    'components/header',
+    'components/section1',
+    'components/section2',
+    'components/section3',
+    'components/footer';
+
+// pages
+@import 
+    'pages/home';
+
+// themes
+@import 
+    'themes/theme',
+    'themes/admin';
