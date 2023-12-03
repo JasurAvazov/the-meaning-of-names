@@ -1,6 +1,6 @@
-.section1{
+.boys1{
     .container{
-        padding: 0 15px 15px;
+        padding: 15px 15px;
     }
     &__cards{
         width: 100%;
@@ -11,18 +11,12 @@
         gap: 35px;
     }
     &__card{
-        width: 50%;
+        width: 100%;
         padding: 50px;
         border-radius: 20px;
-        border: 2px dashed gray;
-        &:first-child{
-            border-color: #00a2ff;
-            background-color: #00a2ff28;
-        }
-        &:last-child{
-            border-color: #ff859a;
-            background-color: #ff859942;
-        }
+        border: 2px dashed;
+        border-color: #00a2ff;
+        background-color: #00a2ff28;
         div{
             display: flex;
             align-items: center;

@@ -1,0 +1,28 @@
+include components/header 
+include components/boys1 
+include components/section2 
+include components/boys3 
+include components/boys4 
+include components/section5 
+include components/section6 
+include components/footer 
+
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet" href="css/style.min.css")
+        title Document
+    body 
+        +header 
+        .wrapper 
+            +section2
+            +boys1
+            +boys3
+            +boys4
+            +section5
+            +section6
+        +footer
+        script(src="js/app.min.js") 

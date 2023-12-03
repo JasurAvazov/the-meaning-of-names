@@ -1,4 +1,4 @@
-.section4{
+.boys3{
     .container{
         padding: 0 15px 35px;
     }
@@ -11,7 +11,7 @@
     .inner{
 
         &-container{
-            background-color: #f1f1f1;
+            background-color: #f9f9f9;
             border-radius: 20px;
             padding: 30px;
             display: flex;
@@ -31,20 +31,14 @@
 
             a{
                 font-size: 18px;
-                color: #ff8599;
+                color: #00a2ff;
                 font-weight: 500;
-            }
-
-            &:first-child{
-                a{
-                    color: #00a2ff;
-                }
             }
         }
         
         &-more{
             width: 100%;
-            background-color: #fff;
+            background-color: white;
             height: 40px;
             border-radius: 20px;
             font-weight: 500;
