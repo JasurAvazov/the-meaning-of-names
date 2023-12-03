@@ -1,0 +1,92 @@
+.section7 {
+    &.boy {
+        .section7-main {
+            background-color: #00a2ff34;
+        }
+        .section7-title {
+            span {
+                color: #00a2ff;
+            }
+        }
+    }
+    &.girl {
+        .section7-main {
+            background-color: #ffc0cb63;
+        }
+        .section7-title {
+            span {
+                color: #ec7387;
+            }
+        }
+    }
+    // .container {
+    // }
+    &-main {
+        border-radius: 16px;
+        padding: 28px 20px;
+        // background-color: rgb(243, 244, 246);
+        width: 100%;
+        @media (max-width: 480px) {
+            border-radius: 12px;
+        }
+    }
+    &-title {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        @media (max-width: 480px) {
+            font-size: 18px;
+            line-height: 26px;
+        }
+    }
+    &-article {
+        margin-top: 18px;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 500;
+        span {
+            font-weight: 700;
+        }
+        @media (max-width: 480px) {
+            margin-top: 12px;
+            font-size: 14px;
+            line-height: 22px;
+        }
+    }
+    &-under {
+        margin: 20px 0;
+    }
+    .under__list {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        @media (max-width: 480px) {
+            gap: 8px;
+        }
+        &-item {
+            background-color: #00a2ff;
+            padding: 18px 16px;
+            color: #ffffff;
+            border-radius: 18px;
+            @media (max-width: 480px) {
+                padding: 16px 14px;
+                border-radius: 14px;
+            }
+        }
+        &-title {
+            line-height: 20px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        &-subtitle {
+            margin-top: 4px;
+            line-height: 18px;
+            font-size: 14px;
+            font-weight: 500;
+            @media (max-width: 480px) {
+                line-height: 16px;
+                font-size: 12px;
+            }
+        }
+    }
+}

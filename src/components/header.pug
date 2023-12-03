@@ -1,7 +1,8 @@
 mixin header()
     header.header 
         .container 
-            a(href="/#").logo Logo 
+            .logo 
+                a(href="/#") Logo 
             form(method="post" action="/?do=search").search-bar
                 input(type="hidden" name="do" value="search").search-bar-input
                 input(type="hidden" name="subaction" value="search").search-bar-input

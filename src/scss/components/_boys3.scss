@@ -1,16 +1,19 @@
-.boys3{
-    .container{
+.boys3 {
+    .container {
         padding: 0 15px 35px;
     }
 
-    &-title{
+    &-title {
         font-size: 22px;
         font-weight: 600;
         margin-bottom: 20px;
+        @media (max-width: 480px) {
+            font-size: 20px;
+            margin-bottom: 12px;
+        }
     }
-    .inner{
-
-        &-container{
+    .inner {
+        &-container {
             background-color: #f9f9f9;
             border-radius: 20px;
             padding: 30px;
@@ -19,9 +22,13 @@
             justify-content: space-between;
             gap: 30px 20px;
             flex-wrap: wrap;
+            @media (max-width: 480px) {
+                border-radius: 12px;
+                padding: 25px;
+            }
         }
 
-        &__column{
+        &__column {
             width: calc(50% - 10px);
             display: flex;
             flex-direction: column;
@@ -29,20 +36,27 @@
             align-items: flex-start;
             gap: 15px;
 
-            a{
+            a {
                 font-size: 18px;
                 color: #00a2ff;
                 font-weight: 500;
+                @media (max-width: 480px) {
+                    font-size: 16px;
+                }
             }
         }
-        
-        &-more{
+
+        &-more {
             width: 100%;
             background-color: white;
             height: 40px;
             border-radius: 20px;
             font-weight: 500;
             font-size: 16px;
+            @media (max-width: 480px) {
+                font-size: 14px;
+                height: 38px;
+            }
         }
     }
 }
